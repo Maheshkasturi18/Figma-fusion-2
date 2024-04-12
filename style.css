@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Arial", sans-serif;
+  width: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common css */
+
+.fs-14 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.w-525{
+  width: 525px;
+}
+
+
+
+/*  */
+
+.custom-header {
+  max-width: 1440px;
+  height: 80px;
+}
+
+.logo {
+  padding: 10px 0;
+}
+
+.search-bar {
+  max-width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  margin: 0px 90px 0px 35px;
+}
+
+.search-bar .inpt input {
+  width: 79px;
+  height: 16px;
+  color: #939ca3;
+}
+
+.search-bar .inpt {
+  width: 259px;
+  border: 1px solid #ebedf0;
+  padding: 7px 169px 7px 7px;
+  border-radius: 8px;
+}
+
+.search-bar button {
+  width: 40px;
+  height: 40px;
+  background: #8064a2;
+  border: 0;
+  border-radius: 8px;
+}
+
+.search-bar button img{
+  padding: 12px;
+}
+
+.Sign-in-header-btn {
+  text-align: center;
+  width: 112px;
+  height: 40px;
+  border: 1px solid #8064a2;
+  border-radius: 8px;
+  padding: 10px, 32px, 14px, 32px;
+}
+
+.Sign-in-header-btn button {
+  border: 0;
+  padding: 10px, 32px, 14px, 32px;
+}
+
+.explore{
+  width: 107px;
+}
+
+.explore h6{
+ padding: 1px 4px;
+}
+
+.hobbies{
+  width: 114px;
+}
+.hobbies h6{
+  padding: 2px 4px;
+}
