@@ -1,8 +1,7 @@
 body {
-  margin: 0;
-  overflow: hidden;
-  font-family: "Arial", sans-serif;
+  overflow: scroll;
   width: 1440px;
+  margin: auto !important;
 }
 
 * {
@@ -13,47 +12,98 @@ body {
 
 /* common css */
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border-violet {
+  border-color: #8064a2;
+}
+
+.bg-violet {
+  background-color: #8064a2 !important;
+}
+
+.text-custom-blue {
+  color: #0096c8;
+}
+
+.text-custom-violet {
+  color: #8064a2;
+}
+
+.bg-gray {
+  background-color: #f7f5f9;
+}
+
 .fs-14 {
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
 }
 
-.w-525{
+.w-525 {
   width: 525px;
 }
 
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-/*  */
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/*common css  end*/
+
+/* header */
+header {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .custom-header {
   max-width: 1440px;
   height: 80px;
-}
-
-.logo {
   padding: 10px 0;
 }
 
 .search-bar {
   max-width: 300px;
   height: 40px;
-  border-radius: 8px;
   margin: 0px 90px 0px 35px;
 }
-
-.search-bar .inpt input {
-  width: 79px;
-  height: 16px;
-  color: #939ca3;
-}
-
 .search-bar .inpt {
   width: 259px;
   border: 1px solid #ebedf0;
-  padding: 7px 169px 7px 7px;
+  padding: 0 169px 0 7px;
   border-radius: 8px;
+}
+.search-bar .inpt input {
+  padding: 7px;
+  width: 300%;
+  color: #939ca3;
 }
 
 .search-bar button {
@@ -64,7 +114,7 @@ body {
   border-radius: 8px;
 }
 
-.search-bar button img{
+.search-bar button img {
   padding: 12px;
 }
 
@@ -75,24 +125,45 @@ body {
   border: 1px solid #8064a2;
   border-radius: 8px;
   padding: 10px, 32px, 14px, 32px;
+  color: #8064a2;
 }
 
-.Sign-in-header-btn button {
-  border: 0;
-  padding: 10px, 32px, 14px, 32px;
-}
-
-.explore{
+.explore {
   width: 107px;
 }
-
-.explore h6{
- padding: 1px 4px;
+.explore h6 {
+  padding: 1px 4px;
+}
+.dropdown .dropdown-menu {
+  padding: 0;
+  top: 26px !important;
+  border-radius: 0;
+}
+.dropdown .dropdown-menu li {
+  width: 220px;
+  height: 42px;
+  gap: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.dropdown .dropdown-menu li a {
+  padding: 9px 40px 9px 9px;
 }
 
-.hobbies{
+.hobbies {
   width: 114px;
 }
-.hobbies h6{
+.hobbies h6 {
   padding: 2px 4px;
+}
+
+/* header end */
+
+/* hero sextion */
+
+.nav-link {
+  color: #939ca3 !important;
+}
+
+.active {
+  color: #8064a2 !important;
 }

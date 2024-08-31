@@ -8,63 +8,202 @@
   <link rel="stylesheet" href="responsive.css">
   <title>Task 2</title>
   <!-- bootstrap link -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/49216b763a.js" crossorigin="anonymous"></script>
 
   <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
 
+  <!-- header -->
   <header>
     <div class="px-5 mx-5 custom-header">
+
       <div class="d-flex justify-content-between align-items-center">
 
-        <img src="images/Logo.png" alt="" class="logo">
+        <a href="#"><img src="images/Logo.png" alt="logo"></a>
 
-
-        <div class="input-group search-bar">
+        <div class="input-group search-bar ">
           <div class="inpt">
-            <input type="search" id="form1" placeholder="Search" class="border-0 "/>
+            <input type="search" id="form1" placeholder="Search" class="border-0 poppins-light " />
           </div>
-          
           <button class="">
-            <img src="images/search.png" alt=""  >
+            <img src="images/search.png" alt="search">
           </button>
-          
-
         </div>
 
-        <div class="d-flex justify-content-between align-items-center w-525">
-          <div class="d-flex justify-content-center align-items-center explore">
-            <img src="images/Explore.png" alt="">
-            <h6 class="m-0">Explore</h6>
-            <img src="images/arrow-down.png" alt="">
+        <div class="d-flex justify-content-between align-items-center w-525 ">
+          <div class="dropdown">
+            <button class=" d-flex justify-content-center align-items-center explore border-0 bg-transparent"
+              type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="images/Explore.png" alt="explore">
+              <h6 class="m-0 poppins-medium">Explore</h6>
+              <img src="images/arrow-down.png" alt="arrow-down">
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item poppins-regular" href="#">People - Community</a></li>
+              <li><a class="dropdown-item poppins-regular" href="#">Places - Venues</a></li>
+              <li><a class="dropdown-item poppins-regular" href="#">Programs - Events</a></li>
+              <li><a class="dropdown-item poppins-regular" href="#">Products - Store</a></li>
+              <li><a class="dropdown-item poppins-regular" href="#">Blogs</a></li>
+            </ul>
           </div>
-          <div class="d-flex justify-content-center align-items-center hobbies">
-            <img src="images/Hobbies.png" alt="">
-            <h6 class="m-0">Hobbies</h6>
-            <img src="images/arrow-down.png" alt="">
+          <div class="d-flex justify-content-center align-items-center hobbies cursor-pointer">
+            <img src="images/Hobbies.png" alt="hobbies">
+            <h6 class="m-0 poppins-medium">Hobbies</h6>
+            <img src="images/arrow-down.png" alt="arrow-down">
           </div>
           <div>
-            <img src="images/notifications.png" alt="">
+            <img src="images/save.png" alt="save" class="cursor-pointer">
           </div>
-          <div><img src="images/cart.png" alt=""></div>
+          <div>
+            <img src="images/notifications.png" alt="notifications" class="cursor-pointer">
+          </div>
+          <div><img src="images/cart.png" alt="cart" class="cursor-pointer"></div>
           <!-- <div >
             <h6 class="m-0"></h6>
           </div> -->
-          <button class="Sign-in-header-btn">Sign in</button>
+          <button class="Sign-in-header-btn bg-transparent poppins-semibold">Sign in</button>
         </div>
       </div>
 
     </div>
   </header>
+
+
+  <section class="mt-3">
+    <!-- hero section -->
+    <div class="bg-gray ">
+      <div class="row px-5 mx-5 pt-5 justify-content-between">
+
+        <div class="col-lg-7">
+          <h2 class="fst-italic fw-bold mb-5">Explore your <span class="text-custom-blue">hobby</span> or <span
+              class="text-custom-violet">passion</span></h2>
+          <p>Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers, suppliers,
+            classes, workshops, and places to practice, participate or perform. Your hobby may be about visual or
+            performing arts, sports, games, gardening, model making, cooking, indoor or outdoor activities…</p>
+          <p>If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products,
+            services or events. Hop on your hobbyhorse and enjoy the ride.</p>
+
+          <img src="images/Group 27.svg" alt="hero-section-logo" width="100%" class="mt-5 pt-4">
+        </div>
+
+
+        <div class="col-lg-4 ">
+
+          <ul class="nav nav-underline" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active fw-semibold" id="fill-tab-0" data-bs-toggle="tab" href="#fill-tabpanel-0"
+                role="tab" aria-controls="fill-tabpanel-0" aria-selected="true"> Sign In</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link fw-semibold" id=" fill-tab-1" data-bs-toggle="tab" href="#fill-tabpanel-1" role="tab"
+                aria-controls="fill-tabpanel-1" aria-selected="false"> Join In </a>
+            </li>
+
+          </ul>
+
+          <div class="py-4">
+            <div>
+              <button
+                class="d-flex gap-5 bg-transparent border-violet align-items-center  border-1 rounded-3 px-4 py-2 mb-4 w-100">
+                <img src="images/Google.svg" alt="google-logo">
+                <p class="fw-semibold m-0">Continue with Google</h5>
+              </button>
+
+              <button
+                class="d-flex gap-5 bg-transparent align-items-center px-4 py-2 rounded-3 border-violet border-1 w-100">
+                <img src="images/Group.svg" alt="facebook-logo">
+                <p class="fw-semibold m-0">Continue with Facebook</p>
+              </button>
+            </div>
+            <div class="text-center my-4">
+              <p>Or connect with</p>
+            </div>
+
+
+            <div class="tab-content " id="tab-content">
+              <div class="tab-pane active" id="fill-tabpanel-0" role="tabpanel" aria-labelledby="fill-tab-0">
+                <form class="sign-in">
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="email" id="form1Example1" placeholder="Email" class="form-control" />
+                  </div>
+
+                  <div class="form-outline mb-4" style="position: relative;">
+                    <input type="password" placeholder="Password" id="passwordInput" class="form-control" />
+                    <img src="images/Password.svg" alt="show password" id="showIcon"
+                      style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); cursor: pointer;">
+                    <img src="images/Password (1).svg" alt="hide password" id="hideIcon"
+                      style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); cursor: pointer; display: none;">
+                  </div>
+
+                  <div class="row mb-4">
+                    <div class="col d-flex ">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                        <label class="form-check-label" for="form1Example3"> Remember me </label>
+                      </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-end gap-2">
+                      <img src="images/lock_black_24dp 1.svg" alt="forgot password" width="10%">
+                      <a href="#!" class="text-decoration-none text-black">Forgot password?</a>
+                    </div>
+                  </div>
+
+
+
+                  <button type="submit"
+                    class="btn w-100 border border-1 border-black btn-block rounded-3 fw-semibold">Continue</button>
+                </form>
+              </div>
+
+              <div class="tab-pane" id="fill-tabpanel-1" role="tabpanel" aria-labelledby="fill-tab-1">
+                <form class="join-in">
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="email" id="form1Example1" placeholder="Email" class="form-control" />
+                  </div>
+
+
+
+                  <div class="form-outline mb-1" style="position: relative;">
+                    <input type="password" placeholder="Password" id="passwordInput" class="form-control" />
+                    <img src="images/Password.svg" alt="show password" id="showIcon"
+                      style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); cursor: pointer;">
+                    <img src="images/Password (1).svg" alt="hide password" id="hideIcon"
+                      style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); cursor: pointer; display: none;">
+                  </div>
+
+                  <div class="text-end mb-2">
+                    <p class="text-decoration-none text-secondary"> Password strength</p>
+                  </div>
+
+                  <p class="text-secondary">By continuing, you agree to our <span class="text-black"> Terms of Service
+                    </span> and <span class="text-black">
+                      Privacy Policy.</span></p>
+
+                  <button type="submit" class="btn w-100 bg-violet text-white btn-block rounded-3 fw-semibold">Agree
+                    and Continue</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <script src="index.js"></script>
