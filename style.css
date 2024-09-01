@@ -24,6 +24,10 @@ body {
   background-color: #8064a2 !important;
 }
 
+.bg-light-violet {
+  background-color: #f7f5f9;
+}
+
 .text-custom-blue {
   color: #0096c8;
 }
@@ -34,6 +38,14 @@ body {
 
 .bg-gray {
   background-color: #f7f5f9;
+}
+
+.bg-light-blue {
+  background-color: #f7fdff;
+}
+
+.border-light-gray {
+  border-color: #f7f5f9;
 }
 
 .fs-14 {
@@ -79,6 +91,30 @@ body {
 /*common css  end*/
 
 /* header */
+p,
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
