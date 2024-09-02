@@ -12,6 +12,16 @@ body {
 
 /* common css */
 
+.w-60 {
+  width: 60% !important;
+}
+
+.position {
+  position: relative;
+  right: 50%;
+  top: 25%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -22,6 +32,10 @@ body {
 
 .bg-violet {
   background-color: #8064a2 !important;
+}
+
+.bg-fade-violet {
+  background-color: #ccc1da;
 }
 
 .bg-light-violet {
@@ -58,39 +72,6 @@ body {
   width: 525px;
 }
 
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-/*common css  end*/
-
-/* header */
 p,
 a {
   font-family: "Poppins", sans-serif;
@@ -111,9 +92,31 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+  font-style: normal;
+}
+
+input {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+}
+
+/* .poppins-semibold {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+} */
+
+/*common css  end*/
+
+/* header */
 
 header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -194,7 +197,7 @@ header {
 
 /* header end */
 
-/* hero sextion */
+/* hero section */
 
 .nav-link {
   color: #939ca3 !important;
@@ -203,3 +206,59 @@ header {
 .active {
   color: #8064a2 !important;
 }
+
+/* hero section end */
+
+/* sub section  */
+
+.violet:hover {
+  background-color: #8064a2;
+  color: #fff;
+}
+
+.green:hover {
+  background-color: #77933c;
+  color: #fff;
+}
+
+.red:hover {
+  background-color: #c0504d;
+  color: #fff;
+}
+
+.blue:hover {
+  background-color: #0096c8;
+  color: #fff;
+}
+
+/* audio */
+.audio-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.custom-controls {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.play-btn {
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.progress-bar {
+  flex: 1;
+  margin: 0 10px;
+  color: #8064a2;
+}
+
+.current-time {
+  color: #8064a2 !important; /* Time color */
+}
+
+/* sub section  end*/
