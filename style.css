@@ -231,6 +231,24 @@ header {
   color: #fff;
 }
 
+.img-2 {
+  display: none;
+}
+
+.violet:hover .img-1,
+.blue:hover .img-1,
+.red:hover .img-1,
+.green:hover .img-1 {
+  display: none;
+}
+
+.violet:hover .img-2,
+.blue:hover .img-2,
+.red:hover .img-2,
+.green:hover .img-2 {
+  display: block;
+}
+
 /* audio */
 .audio-container {
   display: flex;
