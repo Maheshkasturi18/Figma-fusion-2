@@ -1,15 +1,40 @@
 @media screen and (max-width: 1000px) {
   body {
-    width: 90%;
+    width: 100%;
     text-wrap: wrap;
     flex-wrap: wrap;
     margin: 0 !important;
   }
 
   .custom-header {
-    width: 90%;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
     text-wrap: wrap;
     flex-wrap: wrap;
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .w-60 {
+    width: 100% !important;
+  }
+
+  .progress-bar {
+    margin: 0;
+  }
+
+  .img-width {
+    width: 8% !important; /* Width for screens smaller than 768px */
+  }
+
+  .img-wd-30 {
+    width: 20% !important;
+  }
+
+  .img-1,
+  .img-2 {
+    width: 8% !important;
   }
 }

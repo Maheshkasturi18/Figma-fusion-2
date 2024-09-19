@@ -29,81 +29,99 @@
 
   <!-- header -->
   <header>
-    <div class="px-5 mx-5 custom-header">
+    <div class="px-lg-5 mx-lg-5 px-2 mx-0 px-md-3 mx-lg-3 custom-header">
 
-      <div class="d-flex justify-content-between align-items-center">
+      <div class="d-flex justify-content-between align-items-center ">
 
-        <a href="#"><img src="images/Logo.png" alt="logo"></a>
+        <a href="#"><img src="images/Logo.png" alt="logo" width="100%"></a>
 
-        <div class="input-group search-bar ">
-          <div class="inpt">
-            <input type="search" id="form1" placeholder="Search" class="border-0 " />
+        <div class="d-none d-lg-block">
+          <div class="input-group search-bar ">
+            <div class="inpt">
+              <input type="search" id="form1" placeholder="Search" class="border-0 " />
+            </div>
+            <button class="">
+              <img src="images/search.png" alt="search">
+            </button>
           </div>
-          <button class="">
-            <img src="images/search.png" alt="search">
-          </button>
         </div>
 
-        <div class="d-flex justify-content-between align-items-center w-525 ">
-          <div class="dropdown">
-            <button class=" d-flex justify-content-center align-items-center explore border-0 bg-transparent"
-              type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="images/Explore.png" alt="explore">
-              <h6 class="m-0 ">Explore</h6>
+        <div class="d-none d-lg-block">
+          <div class="d-flex justify-content-between align-items-center w-525 ">
+            <div class="dropdown">
+              <button class="d-flex justify-content-center align-items-center explore border-0 bg-transparent"
+                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="images/Explore.png" alt="explore" width="30">
+                <h6 class="m-0 ms-2">Explore</h6>
+                <img src="images/arrow-down.png" alt="arrow-down" width="20">
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">People - Community</a></li>
+                <li><a class="dropdown-item" href="#">Places - Venues</a></li>
+                <li><a class="dropdown-item" href="#">Programs - Events</a></li>
+                <li><a class="dropdown-item" href="#">Products - Store</a></li>
+                <li><a class="dropdown-item" href="#">Blogs</a></li>
+              </ul>
+            </div>
+            <div class="d-flex justify-content-center align-items-center hobbies cursor-pointer">
+              <img src="images/Hobbies.png" alt="hobbies">
+              <h6 class="m-0 ">Hobbies</h6>
               <img src="images/arrow-down.png" alt="arrow-down">
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item " href="#">People - Community</a></li>
-              <li><a class="dropdown-item " href="#">Places - Venues</a></li>
-              <li><a class="dropdown-item " href="#">Programs - Events</a></li>
-              <li><a class="dropdown-item " href="#">Products - Store</a></li>
-              <li><a class="dropdown-item " href="#">Blogs</a></li>
-            </ul>
-          </div>
-          <div class="d-flex justify-content-center align-items-center hobbies cursor-pointer">
-            <img src="images/Hobbies.png" alt="hobbies">
-            <h6 class="m-0 ">Hobbies</h6>
-            <img src="images/arrow-down.png" alt="arrow-down">
-          </div>
-          <div>
-            <img src="images/save.png" alt="save" class="cursor-pointer">
-          </div>
-          <div>
-            <img src="images/notifications.png" alt="notifications" class="cursor-pointer">
-          </div>
-          <div><img src="images/cart.png" alt="cart" class="cursor-pointer"></div>
-          <!-- <div >
+            </div>
+            <div>
+              <img src="images/save.png" alt="save" class="cursor-pointer">
+            </div>
+            <div>
+              <img src="images/notifications.png" alt="notifications" class="cursor-pointer">
+            </div>
+            <div><img src="images/cart.png" alt="cart" class="cursor-pointer"></div>
+            <!-- <div >
             <h6 class="m-0"></h6>
           </div> -->
-          <button class="Sign-in-header-btn bg-transparent ">Sign in</button>
+            <button class="Sign-in-header-btn bg-transparent ">Sign in</button>
+          </div>
+        </div>
+
+        <div class="d-lg-none d-block">
+          <div class="d-flex justify-content-between align-items-center gap-4">
+            <div>
+              <img src="images/icons8_search 1.svg" alt="icons8_search" class="cursor-pointer">
+            </div>
+            <div>
+              <img src="images/notifications.png" alt="notifications" class="cursor-pointer">
+            </div>
+            <div>
+              <img src="images/menu_black_24dp 1.svg" alt="menu_black_24dp" class="cursor-pointer">
+            </div>
+
+          </div>
         </div>
       </div>
-
     </div>
   </header>
-
 
   <section class="mt-3">
     <!-- hero section -->
     <div class="bg-gray ">
-      <div class="row px-5 mx-5 pt-5 justify-content-between">
+      <div class="row  px-lg-5 mx-lg-5 px-2 mx-0 px-md-3 mx-lg-3 pt-lg-5 pt-3 justify-content-between">
 
-        <div class="col-md-7 ">
+        <div class="col-md-7 mb-4 mb-md-0">
           <h2 class="fst-italic  mb-5">Explore your <span class="-italic text-custom-blue">hobby</span>
             or <span class="text-custom-violet -italic">passion</span></h2>
-          <p>Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers, suppliers,
+          <p>Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers,
+            suppliers,
             classes, workshops, and places to practice, participate or perform. Your hobby may be about visual or
             performing arts, sports, games, gardening, model making, cooking, indoor or outdoor activities…</p>
           <p>If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products,
             services or events. Hop on your hobbyhorse and enjoy the ride.</p>
 
-          <img src="images/Group 27.svg" alt="hero-section-logo" width="100%" class="mt-5 pt-4">
+          <img src="images/Group 27.svg" alt="hero-section-logo" width="100%" class="mt-5 pt-4 d-none d-md-block">
         </div>
 
 
         <div class="col-md-4 ">
 
-          <ul class="nav nav-underline" role="tablist">
+          <ul class="nav nav-underline justify-content-center justify-content-md-start" role="tablist">
             <li class="nav-item" role="presentation">
               <a class="nav-link active " id="fill-tab-0" data-bs-toggle="tab" href="#fill-tabpanel-0" role="tab"
                 aria-controls="fill-tabpanel-0" aria-selected="true"> Sign In</a>
@@ -117,20 +135,22 @@
 
           <div class="py-4">
             <div>
-              <button
-                class="d-flex gap-5 bg-transparent border-violet align-items-center  border-1 rounded-3 px-4 py-2 mb-4 w-100">
+              <a href="https://www.google.com/"
+                class="btn border border-violet  d-flex  border-1 text-decoration-none gap-lg-5 gap-3 bg-transparent align-items-center px-4 py-2 rounded-3 border-violet border-1 w-100  mb-4">
                 <img src="images/Google.svg" alt="google-logo">
-                <p class=" m-0">Continue with Google</h5>
-              </button>
+                <p class=" m-0">Continue with Google</p>
+              </a>
 
-              <button
-                class="d-flex gap-5 bg-transparent align-items-center px-4 py-2 rounded-3 border-violet border-1 w-100">
+              <a href="https://www.facebook.com/"
+                class="btn border border-violet  d-flex  border-1 text-decoration-none gap-lg-5 gap-3 bg-transparent align-items-center px-4 py-2 rounded-3 border-violet border-1 w-100">
                 <img src="images/Group.svg" alt="facebook-logo">
                 <p class=" m-0">Continue with Facebook</p>
-              </button>
+              </a>
             </div>
-            <div class="text-center my-4">
+            <div class="text-center d-flex align-items-center justify-content-around my-4">
+              <p>---------</p>
               <p>Or connect with</p>
+              <p>---------</p>
             </div>
 
 
@@ -202,6 +222,8 @@
             </div>
           </div>
 
+          <img src="images/Group 27.svg" alt="hero-section-logo" width="100%" class=" pt-5 d-md-none d-block">
+
 
         </div>
       </div>
@@ -210,11 +232,11 @@
 
     <!-- sub section 1 -->
 
-    <div class="p-5 m-5">
+    <div class=" p-lg-5 m-lg-5  m-0 px-3 py-5 m-md-3">
       <div class="row">
-        <div class="col-md-6 mb-4">
-          <div class="border border-light-gray border-1 rounded-3 violet p-5">
-            <div class="d-flex gap-4 align-items-center mb-4 ">
+        <div class="col-md-6 mb-4 text-center text-md-start">
+          <div class="border border-light-gray border-1 rounded-3 violet p-lg-5 p-3">
+            <div class="d-flex gap-4 align-items-center mb-4 justify-content-center justify-content-md-start">
               <img src="images/groups_black_24dp (1) 1.svg" alt="groups" width="5%" class="img-1">
               <img src="images/groups_black.svg" alt="groups" width="5%" class="img-2">
               <h4 class=" m-0">People</h4>
@@ -228,15 +250,16 @@
             <button class="Sign-in-header-btn bg-transparent ">Connect</button>
           </div>
         </div>
-        <div class="col-md-6 mb-4">
-          <div class="border border-light-gray border-1 rounded-3 green p-5">
-            <div class="d-flex gap-4 align-items-center mb-4 ">
+        <div class="col-md-6 mb-4 text-center text-md-start">
+          <div class="border border-light-gray border-1 rounded-3 green p-lg-5 p-3">
+            <div class="d-flex gap-4 align-items-center mb-4 justify-content-center justify-content-md-start">
               <img src="images/location_on_black_24dp 1.svg" alt="location" width="5%" class="img-1">
               <img src="images/Place.svg" alt="add" width="5%" class="img-2">
               <h4 class=" m-0">Place</h4>
             </div>
 
-            <p class="mb-4">Find a class, school, playground, auditorium, studio, shop or an event venue. Book a slot at
+            <p class="mb-4">Find a class, school, playground, auditorium, studio, shop or an event venue. Book a slot
+              at
               venues that
               allow booking through hobbycue.</p>
 
@@ -244,9 +267,9 @@
           </div>
         </div>
 
-        <div class="col-md-6 mb-4 mb-md-0">
-          <div class="border-light-gray border border-1 rounded-3 red p-5">
-            <div class="d-flex gap-4 align-items-center mb-4 ">
+        <div class="col-md-6 mb-4 mb-md-0 text-center text-md-start">
+          <div class="border-light-gray border border-1 rounded-3 red p-lg-5 p-3">
+            <div class="d-flex gap-4 align-items-center mb-4 justify-content-center justify-content-md-start">
               <img src="images/shopping_basket_black_24dp (2) 1.svg" alt="shopping" width="5%" class="img-1">
               <img src="images/Product 2.svg" alt="add" width="5%" class="img-2">
               <h4 class=" m-0">Product</h4>
@@ -260,9 +283,9 @@
           </div>
         </div>
 
-        <div class="col-md-6">
-          <div class="border-light-gray border border-1 rounded-3 blue p-5">
-            <div class="d-flex gap-4 align-items-center mb-4  ">
+        <div class="col-md-6 text-center text-md-start">
+          <div class="border-light-gray border border-1 rounded-3 blue p-lg-5 p-3">
+            <div class="d-flex gap-4 align-items-center mb-4  justify-content-center justify-content-md-start">
               <img src="images/event_available_black_24dp 2.svg" alt="event" width="5%" class="img-1">
               <img src="images/Program.svg" alt="add" width="5%" class="img-2">
               <h4 class=" m-0">Program</h4>
@@ -280,15 +303,15 @@
 
     <!-- sub section 2 -->
     <div class="bg-light-blue">
-      <div class="p-5 m-5">
-        <div class="border-light-gray border border-1 rounded-3  p-5">
-          <div class="d-flex gap-4 align-items-center mb-4">
-            <img src="images/Add.svg" alt="add" width="3%">
-            <img src="images/Program.svg" alt="add" width="3%">
+      <div class="p-lg-5 m-lg-5  m-0 px-3 py-5 m-md-3 text-center text-md-start">
+        <div class="border-light-gray border border-1 rounded-3  p-lg-5 p-3">
+          <div class="d-flex gap-4 align-items-center mb-4 justify-content-center justify-content-md-start">
+            <img src="images/Add.svg" alt="add" class="img-width">
             <h4 class=" m-0">Add your own</h4>
           </div>
 
-          <p class="mb-4">Are you a teacher or expert? Do you sell or rent out equipment, venue or event tickets? Or,
+          <p class="mb-4  ">Are you a teacher or expert? Do you sell or rent out equipment,
+            venue or event tickets? Or,
             you
             know someone who should be on hobbycue? Go ahead and Add your Own page </p>
 
@@ -299,14 +322,16 @@
 
     <!-- sub section 3 -->
 
-    <div class="p-5 m-5">
-      <div class="bg-light-violet rounded-3  p-5">
-        <div class="d-flex gap-4 align-items-center mb-4">
-          <img src="images/quote.svg" alt="quote" width="3%">
+    <div class="p-lg-5 m-lg-5  m-0 px-3 py-5 m-md-3">
+      <div class="bg-light-violet rounded-3  p-lg-5 p-3">
+        <div class="d-flex gap-4 align-items-center mb-4 justify-content-center justify-content-md-start">
+          <img src="images/quote.svg" alt="quote" class="img-width">
           <h4 class=" m-0">Testimonials</h4>
         </div>
 
-        <p class="mb-5">In a fast growing and ever changing city like Bangalore, it sometimes becomes very difficult
+        <p class="mb-5 text-center text-md-start">In a fast growing and ever changing city like Bangalore, it
+          sometimes
+          becomes very difficult
           to
           find or connect with like minded people. Websites like hobbycue.com is a great service which helps me get in
           touch with, communicate, connect, and exchange ideas with other dancers. It also provides the extra benefit
@@ -319,7 +344,8 @@
 
         <div class="d-flex justify-content-between flex-column-reverse flex-md-row">
 
-          <div class="bg-fade-violet d-flex  justify-content-between rounded-3 px-4 py-3 w-60">
+          <div
+            class="bg-fade-violet d-flex align-items-center  justify-content-between rounded-3 px-lg-4 py-lg-3 p-2 w-60">
             <div class="audio-container">
               <audio id="audioPlayer" src="horse.mp3">
                 <source src="horse.mp3" type="audio/mpeg">
@@ -339,8 +365,8 @@
             </div>
           </div>
 
-          <div class="d-flex gap-3 align-items-center">
-            <img src="images/Ellipse 12.svg" alt="quote" width="30%">
+          <div class="d-flex gap-3 align-items-center mb-4 mb-md-0">
+            <img src="images/Ellipse 12.svg" alt="quote" class="img-wd-30">
             <div>
               <h5 class="text-custom-violet">Shubha Nagarajan</h5>
               <p class="text-custom-blue m-0">Classical Dancer</p>
@@ -355,7 +381,7 @@
 
     <!-- sub section 4 -->
     <div class="bg-light-blue">
-      <div class="p-5 m-5">
+      <div class="p-lg-5 mt-lg-5 mt-md-3 mx-md-3 mx-lg-5 mx-0 px-3 py-5 mx-lg-3">
 
         <div class=" mb-5">
           <h2 class="text-capitalize fst-italic mb-4">your <span class="text-custom-blue -italic">hobby</span> ,

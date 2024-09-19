@@ -12,6 +12,14 @@ body {
 
 /* common css */
 
+.img-width {
+  width: 3%;
+}
+
+.img-wd-30 {
+  width: 30%;
+}
+
 .w-60 {
   width: 60% !important;
 }
@@ -120,12 +128,17 @@ input {
 
 header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: sticky !important;
+  top: 0 !important;
+  /* overflow: hidden; */
+  z-index: 999;
 }
 
 .custom-header {
   max-width: 1440px;
   height: 80px;
   padding: 10px 0;
+  background-color: #fff;
 }
 
 .search-bar {
@@ -215,20 +228,36 @@ header {
   background-color: #8064a2;
   color: #fff;
 }
+.violet:hover .Sign-in-header-btn {
+  color: #fff;
+  border-color: #fff;
+}
 
 .green:hover {
   background-color: #77933c;
   color: #fff;
+}
+.green:hover .Sign-in-header-btn {
+  color: #fff;
+  border-color: #fff;
 }
 
 .red:hover {
   background-color: #c0504d;
   color: #fff;
 }
+.red:hover .Sign-in-header-btn {
+  color: #fff;
+  border-color: #fff;
+}
 
 .blue:hover {
   background-color: #0096c8;
   color: #fff;
+}
+.blue:hover .Sign-in-header-btn {
+  color: #fff;
+  border-color: #fff;
 }
 
 .img-2 {
